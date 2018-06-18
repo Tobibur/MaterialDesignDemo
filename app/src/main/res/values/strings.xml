@@ -23,10 +23,8 @@
     <string name="profileimage">ProfileImage</string>
     <string name="martha_harris">Martha Harris</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="one">One</string>
     <string name="two">Two</string>
     <string name="three">Three</string>
-    <string name="title_activity_maps">Map</string>
 </resources>
