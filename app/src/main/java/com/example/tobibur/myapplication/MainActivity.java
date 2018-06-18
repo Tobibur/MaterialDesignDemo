@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this,NavDrawerActivity.class));
                 break;
             case R.id.custom_ui_btn:
-                startActivity(new Intent(this, TabLayoutActivity.class));
+                startActivity(new Intent(this, UIActivity.class));
                 break;
             case R.id.tab_nav_btn:
                 startActivity(new Intent(this, TabLayoutActivity.class));

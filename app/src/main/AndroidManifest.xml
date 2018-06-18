@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tobibur.myapplication">
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -35,7 +34,7 @@
             android:name=".TabLayoutActivity"
             android:label="TabLayoutActivity"
             android:theme="@style/TabTheme" />
-
+        <activity android:name=".UIActivity"></activity>
     </application>
 
 </manifest>
