@@ -34,7 +34,9 @@
             android:name=".TabLayoutActivity"
             android:label="TabLayoutActivity"
             android:theme="@style/TabTheme" />
-        <activity android:name=".UIActivity"></activity>
+        <activity
+            android:name=".UIActivity"
+            android:label="UI Activity"/>
     </application>
 
 </manifest>
