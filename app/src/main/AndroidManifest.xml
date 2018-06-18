@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,24 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".activities.LoginActivity" />
         <activity
-            android:name=".RecyclerActivity"
+            android:name=".activities.RecyclerActivity"
             android:label="Card RecyclerView" />
         <activity
-            android:name=".NavDrawerActivity"
+            android:name=".activities.NavDrawerActivity"
             android:label="@string/title_activity_nav_drawer"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".activities.ProfileActivity"
             android:label="ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TabLayoutActivity"
+            android:name=".activities.TabLayoutActivity"
             android:label="TabLayoutActivity"
             android:theme="@style/TabTheme" />
         <activity
-            android:name=".UIActivity"
+            android:name=".activities.UIActivity"
             android:label="UI Activity"/>
     </application>
 

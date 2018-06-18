@@ -1,4 +1,4 @@
-package com.example.tobibur.myapplication;
+package com.example.tobibur.myapplication.model;
 
 public class User {
 
