@@ -31,7 +31,7 @@
             <ImageView
                 android:layout_width="85dp"
                 android:layout_height="100dp"
-                android:src="@drawable/chickenfriedrice"
+                android:id="@+id/item1"
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/item" />
 
@@ -112,7 +112,7 @@
             <ImageView
                 android:layout_width="85dp"
                 android:layout_height="100dp"
-                android:src="@drawable/paneertikka"
+                android:id="@+id/item2"
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/item" />
 

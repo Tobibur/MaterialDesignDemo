@@ -11,8 +11,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.bumptech.glide.Glide;
 import com.example.tobibur.myapplication.R;
 
 
@@ -25,6 +27,8 @@ public class UIActivity extends AppCompatActivity {
     LinearLayout layoutBottomSheet;
     Button btnBottomSheet;
 
+    ImageView img1, img2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +38,12 @@ public class UIActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         layoutBottomSheet = findViewById(R.id.bottom_sheet);
         btnBottomSheet = findViewById(R.id.btn_bottom_sheet);
+
+        img1 = findViewById(R.id.item1);
+        img2 = findViewById(R.id.item2);
+
+        Glide.with(this).load(R.drawable.chickenfriedrice).into(img1);
+        Glide.with(this).load(R.drawable.paneertikka).into(img2);
 
         sheetBehavior = BottomSheetBehavior.from(layoutBottomSheet);
 
