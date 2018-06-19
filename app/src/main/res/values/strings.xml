@@ -27,4 +27,21 @@
     <string name="one">One</string>
     <string name="two">Two</string>
     <string name="three">Three</string>
+    <string name="cart">Cart</string>
+    <string name="chicken_fried_rice">Chicken Fried Rice</string>
+    <string name="special_chicken">Special Chicken</string>
+    <string name="qty_1">QTY: 1</string>
+    <string name="qty_2">QTY: 2</string>
+    <string name="_34_50">₹ 220.50</string>
+    <string name="icon">icon</string>
+    <string name="item">Item</string>
+    <string name="shipping_details">Shipping details</string>
+    <string name="ship_to">Ship to :</string>
+    <string name="united_states_county_445_rd">United States, County 445 Rd,\nMineola, TX, 75773\n(903) 569–3465</string>
+    <string name="payment">Payment</string>
+    <string name="logo">logo</string>
+    <string name="master_card_5543">Master Card 5543 **** **** ****</string>
+    <string name="paneer_tikka">Paneer Tikka</string>
+    <string name="special_paneer">Special Paneer</string>
+    <string name="_214_50">₹ 214.50</string>
 </resources>

@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Flat No 404, Skyline Apartments, Vizag - 500576" />
+        android:text="@string/united_states_county_445_rd" />
 
     <Button
         android:layout_width="match_parent"
