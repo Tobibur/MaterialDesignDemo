@@ -47,17 +47,18 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:text="@string/chicken_fried_rice"
-                        android:textColor="@color/colorBlack"/>
+                        android:textColor="@color/colorBlack"
+                        android:layout_weight="1"/>
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_more_vert_black_24dp"
-                        android:contentDescription="@string/icon" />
+                        android:contentDescription="@string/icon"/>
 
                 </LinearLayout>
 
@@ -128,14 +129,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:text="@string/paneer_tikka"
-                        android:textColor="@color/colorBlack"/>
+                        android:textColor="@color/colorBlack"
+                        android:layout_weight="1"/>
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_more_vert_black_24dp"
                         android:contentDescription="@string/icon" />
