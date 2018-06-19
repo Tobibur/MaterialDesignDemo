@@ -2,4 +2,4 @@
 Material design UI components demo.
 
 ## Preview
-<img src="preview/preview.gif" width="200">
+<img src="https://drive.google.com/open?id=1hjVxodVzo0raDGY-6o9XpOO1yLfK2a3C" width="200">
