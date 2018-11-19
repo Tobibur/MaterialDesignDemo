@@ -44,4 +44,7 @@
     <string name="paneer_tikka">Paneer Tikka</string>
     <string name="special_paneer">Special Paneer</string>
     <string name="_214_50">₹ 214.50</string>
+    <string name="heart_icon">Heart Icon</string>
+    <string name="save_icon">Save Icon</string>
+    <string name="share_icon">Share Icon</string>
 </resources>
