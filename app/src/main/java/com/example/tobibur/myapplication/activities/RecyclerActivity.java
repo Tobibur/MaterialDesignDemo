@@ -1,19 +1,24 @@
 package com.example.tobibur.myapplication.activities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.tobibur.myapplication.R;
 import com.example.tobibur.myapplication.adapters.RecyclerAdapter;
+import com.example.tobibur.myapplication.helpers.RecyclerViewClickListener;
 import com.example.tobibur.myapplication.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecyclerActivity extends AppCompatActivity {
+public class RecyclerActivity extends AppCompatActivity implements RecyclerViewClickListener {
 
     RecyclerView recyclerView;
 
@@ -89,7 +94,20 @@ public class RecyclerActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
 
         recyclerView.setHasFixedSize(true);
-        recyclerView.setAdapter(new RecyclerAdapter(this,sampleuser));
+        recyclerView.setAdapter(new RecyclerAdapter(this,sampleuser, this));
+
+    }
+
+    @Override
+    public void recyclerViewListClicked(View v, int position) {
+        v.setBackgroundColor(Color.parseColor("#4CAF5D"));
+        Toast.makeText(this, String.valueOf(position), Toast.LENGTH_SHORT).show();
+        User user = (User) v.getTag();
+        Intent intent = new Intent(this, ProfileActivity.class);
+        intent.putExtra("position", String.valueOf(user.user_image));
+        intent.putExtra("ProfileName", user.user_name);
+        intent.putExtra("ProfileDesc", user.user_desc);
+        startActivity(intent);
 
     }
 }

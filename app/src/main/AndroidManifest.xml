@@ -31,7 +31,7 @@
             android:label="ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.TabLayoutActivity"
+            android:name=".activities.TestTabActivity"
             android:label="TabLayoutActivity"
             android:theme="@style/TabTheme" />
         <activity

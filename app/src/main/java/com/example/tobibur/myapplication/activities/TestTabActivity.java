@@ -12,7 +12,7 @@ import com.example.tobibur.myapplication.fragments.OneFragment;
 import com.example.tobibur.myapplication.fragments.ThreeFragment;
 import com.example.tobibur.myapplication.fragments.TwoFragment;
 
-public class TabLayoutActivity extends AppCompatActivity {
+public class TestTabActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     TabLayout tabLayout;
@@ -21,7 +21,7 @@ public class TabLayoutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tab_layout);
+        setContentView(R.layout.activity_tab_test);
 
         toolbar = findViewById(R.id.toolbar_tab);
         setSupportActionBar(toolbar);
